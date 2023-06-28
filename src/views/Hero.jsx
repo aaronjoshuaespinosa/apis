@@ -24,7 +24,7 @@ const Hero = () => {
                         </div>
                     </div>
 
-                    <img src="/src/assets/hero-dessert.webp" alt="hero-image" className='w-full absolute -bottom-20 left-0 z-0' />
+                    <img src="../assets/golder-bull.webp" alt="hero-image" className='w-full absolute -bottom-20 left-0 z-0' />
                     <div className="w-full h-[35rem] bg-gradient-to-t from-brwn to-transparent z-10 absolute bottom-0 pointer-events-none"></div>
                 </div>
             </div>
