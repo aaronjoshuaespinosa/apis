@@ -16,18 +16,18 @@ const About = () => {
 
     return (
         <>
-            <div className='h-auto w-full px-[15rem] py-40 bg-gradient-to-b from-brwn to-black text-white font-inter' id="about">
+            <div className='h-auto w-full md:px-[5rem] lg:px-[15rem] py-40 bg-gradient-to-b from-brwn to-black text-white font-inter' id="about">
                 <div className="flex w-full relative">
-                    <motion.img src="/apis sacred bull.png" alt="golden-bull" className='absolute left-[-27rem] top-[-7rem] w-[40rem]' ref={aRef} initial={{ opacity: 0, x: -60 }} animate={aView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1, delay: 0.2 }} />
+                    <motion.img src="/apis sacred bull.png" alt="golden-bull" className='absolute left-[-27rem] top-[-7rem] w-[40rem] sm:hidden lg:block' ref={aRef} initial={{ opacity: 0, x: -60 }} animate={aView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1, delay: 0.2 }} />
 
-                    <div className="w-full flex">  </div>
+                    <div className="sm:w-0 lg:w-full flex"> </div>
 
-                    <div className="flex flex-col gap-y-5">
-                        <div>
-                            <motion.h4 className="font-uncial text-3xl" ref={bRef} initial={{ opacity: 0, y: 30 }} animate={bView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 1 }}>History of the Sacred Bull</motion.h4>
-                            <motion.h1 className="font-uncial text-yllw text-7xl leading-[6rem]" ref={cRef} initial={{ opacity: 0, y: 30 }} animate={cView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 1, delay: 0.2 }}>LEGEND OF APIS</motion.h1>
+                    <div className="flex flex-col gap-y-5 sm:w-full lg:w-auto px-[2rem]">
+                        <div className='flex flex-col items-center'>
+                            <motion.h4 className="font-uncial text-xl md:text-3xl sm:text-center lg:text-left" ref={bRef} initial={{ opacity: 0, y: 30 }} animate={bView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 1 }}>History of the Sacred Bull</motion.h4>
+                            <motion.h1 className="font-uncial text-yllw text-3xl md:text-6xl lg:text-7xl md:leading-[6.5rem] lg:leading-[6rem] sm:text-center lg:text-left" ref={cRef} initial={{ opacity: 0, y: 30 }} animate={cView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 1, delay: 0.2 }}>LEGEND OF APIS</motion.h1>
                         </div>
-                        <div className='flex flex-col gap-y-5'>
+                        <div className='flex flex-col gap-y-5 sm:text-center lg:text-left text-sm md:text-base'>
                             <motion.p className="" ref={dRef} initial={{ opacity: 0, y: 30 }} animate={dView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 1, delay: 0.4 }}>
                                 Once upon a time, in the ancient lands of Egypt, there lived a magnificent bull named Apis. Apis was no ordinary bull; he was believed to be a sacred embodiment of the god Ptah. With his sleek black coat, powerful build, and majestic horns, Apis roamed the fertile fields and brought prosperity to the people.
                             </motion.p>

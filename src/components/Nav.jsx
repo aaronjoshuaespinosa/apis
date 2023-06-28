@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { navLinks } from '../constants/index'
 
 const Nav = () => {
@@ -33,9 +33,9 @@ const Nav = () => {
 
     return (
         <>
-            <nav className={`fixed flex w-full items-center justify-center py-10 z-50 gap-x-20 transition-all ease-in-out duration-[0.25s] ${show ? 'bg-black/60 backdrop-blur-md' : 'bg-transparent'}`}>
+            <nav className={`fixed flex w-full items-center justify-center py-10 z-50 gap-x-10 md:gap-x-20 transition-all ease-in-out duration-[0.25s] ${show ? 'bg-black/60 backdrop-blur-md' : 'bg-transparent'}`}>
                 {navLinks.map((links, i) =>
-                    <a href={links.link} key={i} className='font-uncial text-white hover:text-yllw'><p>{links.name}</p></a>
+                    <a href={links.link} key={i} className='font-uncial text-white hover:text-yllw text-xs md:text-base'><p>{links.name}</p></a>
                 )}
             </nav>
         </>

@@ -1,10 +1,6 @@
 // NAVLINKS
 export const navLinks = [
     {
-        link: "#home",
-        name: "Home"
-    },
-    {
         link: "#about",
         name: "About"
     },
