@@ -12,7 +12,8 @@ module.exports = {
       },
       colors: {
         yllw: "#EFB520",
-        orange: "#FF6900"
+        orange: "#FF6900",
+        brwn: "#8D5E3D"
       }
     },
   },
