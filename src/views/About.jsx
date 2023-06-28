@@ -18,7 +18,7 @@ const About = () => {
         <>
             <div className='h-auto w-full md:px-[5rem] lg:px-[15rem] py-40 bg-gradient-to-b from-brwn to-black text-white font-inter' id="about">
                 <div className="flex w-full relative">
-                    <motion.img src="/apis sacred bull.png" alt="golden-bull" className='absolute left-[-27rem] top-[-7rem] w-[40rem] sm:hidden lg:block' ref={aRef} initial={{ opacity: 0, x: -60 }} animate={aView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1, delay: 0.2 }} />
+                    <motion.img src="/apis sacred bull.png" alt="golden-bull" className='absolute left-[-27rem] top-[-7rem] w-[40rem] hidden lg:block' ref={aRef} initial={{ opacity: 0, x: -60 }} animate={aView ? { opacity: 1, x: 0 } : {}} transition={{ duration: 1, delay: 0.2 }} />
 
                     <div className="sm:w-0 lg:w-full flex"> </div>
 
