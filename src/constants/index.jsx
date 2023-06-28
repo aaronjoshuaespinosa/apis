@@ -52,7 +52,7 @@ export const roadmap = [
     {
         quarter: "Q1",
         year: "2023",
-        title: "Lorem ipsum",
+        title: "Roadmap Title",
         content: [
             {
                 index: 0,
@@ -77,7 +77,7 @@ export const roadmap = [
     {
         quarter: "Q2",
         year: "2023",
-        title: "Lorem ipsum",
+        title: "Roadmap Title",
         content: [
             {
                 index: 0,
@@ -102,7 +102,7 @@ export const roadmap = [
     {
         quarter: "Q3",
         year: "2023",
-        title: "Lorem ipsum",
+        title: "Roadmap Title",
         content: [
             {
                 index: 0,
@@ -127,7 +127,7 @@ export const roadmap = [
     {
         quarter: "Q4",
         year: "2023",
-        title: "Lorem ipsum",
+        title: "Roadmap Title",
         content: [
             {
                 index: 0,

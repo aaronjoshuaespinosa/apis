@@ -6,7 +6,6 @@ import About from './views/About'
 import Tokenomics from './views/Tokenomics'
 import Partners from './views/Partners'
 import Footer from './components/Footer'
-import Roadmap from './views/Roadmap'
 
 function App() {
 
@@ -18,7 +17,6 @@ function App() {
         <About />
         <Tokenomics />
         <Partners />
-        <Roadmap />
         <Footer />
       </div>
     </>
