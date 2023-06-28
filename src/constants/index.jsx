@@ -21,27 +21,27 @@ export const navLinks = [
 // PARTNER CONTENTS
 export const partners = [
     {
-        img: "src/assets/dummy-logo.webp",
+        img: "/dummy-logo.webp",
         name: "PARTNER"
     },
     {
-        img: "src/assets/dummy-logo.webp",
+        img: "/dummy-logo.webp",
         name: "PARTNER"
     },
     {
-        img: "src/assets/dummy-logo.webp",
+        img: "/dummy-logo.webp",
         name: "PARTNER"
     },
     {
-        img: "src/assets/dummy-logo.webp",
+        img: "/dummy-logo.webp",
         name: "PARTNER"
     },
     {
-        img: "src/assets/dummy-logo.webp",
+        img: "/dummy-logo.webp",
         name: "PARTNER"
     },
     {
-        img: "src/assets/dummy-logo.webp",
+        img: "/dummy-logo.webp",
         name: "PARTNER"
     },
 ]
@@ -147,4 +147,22 @@ export const roadmap = [
             },
         ]
     },
+]
+
+export const footerLogos = [
+    {
+        name: "Dummy",
+        logo: "/dummy-logo.webp",
+        link: "#"
+    },
+    {
+        name: "Dummy",
+        logo: "/dummy-logo.webp",
+        link: "#"
+    },
+    {
+        name: "Dummy",
+        logo: "/dummy-logo.webp",
+        link: "#"
+    }
 ]

@@ -5,7 +5,7 @@ const Tokenomics = () => {
         <>
             <div className='h-auto w-full px-[15rem] py-40 bg-black text-white font-inter flex flex-col items-center justify-center gap-y-10'>
                 <div className='text-center'>
-                    <h1 className='font-uncial text-yllw text-7xl'>Apis the Sacred Bull</h1>
+                    <h1 className='font-uncial text-yllw text-7xl text-shadow'>Apis the Sacred Bull</h1>
                     <h4 className='font-uncial text-3xl'>TOKENOMICS</h4>
                 </div>
                 <p className='max-w-[35rem] text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, possimus ipsum? Quidem commodi culpa odit!</p>

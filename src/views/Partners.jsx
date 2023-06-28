@@ -6,7 +6,7 @@ const Partners = () => {
         <>
             <div className='h-auto w-full px-[15rem] py-40 bg-black text-white font-inter flex flex-col items-center justify-center'>
                 <div className='flex flex-col items-center justify-center gap-y-10'>
-                    <h1 className='font-uncial text-yllw text-7xl'>PARTNERS</h1>
+                    <h1 className='font-uncial text-yllw text-7xl text-shadow'>PARTNERS</h1>
                     <p className='max-w-[35rem] text-center'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor eligendi quasi quibusdam molestias earum nihil ratione.</p>
                     <div className="flex flex-wrap gap-x-5 gap-y-5 justify-center items-center">
                         {partners.map((partner, i) =>
