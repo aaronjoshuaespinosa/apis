@@ -1,8 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{html,js,jsx}"
+  ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'uncial': ['Uncial Antiqua'],
+        'inter': ['Inter']
+      },
+      colors: {
+        yllw: "#EFB520",
+        orange: "#FF6900"
+      }
+    },
   },
   plugins: [],
 }

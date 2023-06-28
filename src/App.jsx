@@ -1,12 +1,12 @@
-import { useState } from 'react'
+import React from 'react'
 import './index.css'
+import Hero from './views/Hero'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div></div>
+      <Hero />
     </>
   )
 }
