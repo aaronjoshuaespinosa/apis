@@ -21,20 +21,28 @@ export const navLinks = [
 // PARTNER CONTENTS
 export const partners = [
     {
-        img: "",
-        name: ""
+        img: "src/assets/dummy-logo.webp",
+        name: "PARTNER"
     },
     {
-        img: "",
-        name: ""
+        img: "src/assets/dummy-logo.webp",
+        name: "PARTNER"
     },
     {
-        img: "",
-        name: ""
+        img: "src/assets/dummy-logo.webp",
+        name: "PARTNER"
     },
     {
-        img: "",
-        name: ""
+        img: "src/assets/dummy-logo.webp",
+        name: "PARTNER"
+    },
+    {
+        img: "src/assets/dummy-logo.webp",
+        name: "PARTNER"
+    },
+    {
+        img: "src/assets/dummy-logo.webp",
+        name: "PARTNER"
     },
 ]
 
