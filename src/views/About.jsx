@@ -7,7 +7,7 @@ const About = () => {
                 <div className="flex w-full">
 
                     <div className="w-full flex relative">
-                        <img src="src/assets/golder-bull.webp" alt="golden-bull" className='' />
+                        <img src="/golder-bull.webp" alt="golden-bull" className='' />
                     </div>
 
                     <div className="flex flex-col gap-y-5">
