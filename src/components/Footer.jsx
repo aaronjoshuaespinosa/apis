@@ -8,7 +8,7 @@ const Footer = () => {
                 <p>contact@apis.com</p>
                 <div className="flex gap-x-4">
                     {footerLogos.map((logo, i) =>
-                        <a href={logo.link}><img src={logo.logo} alt={logo.name} className='h-8' /></a>
+                        <a href={logo.link} key={i}><img src={logo.logo} alt={logo.name} className='h-8' /></a>
                     )}
                 </div>
             </footer>

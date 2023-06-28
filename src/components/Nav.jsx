@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { navLinks } from '../constants/index'
 
 const Nav = () => {
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
     const [showNav, setshowNav] = useState(false)
 
